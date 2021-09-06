@@ -49,8 +49,8 @@ export default {
   }
 
   ul li a{
-    padding: 20px 10px;
-    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-bottom: 80px;
   }
 
   .row{

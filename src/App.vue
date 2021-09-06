@@ -38,6 +38,7 @@ export default {
     color: black;
     &:hover{
       color:#0C7CEC;
+      border-bottom: 5px solid #0C7CEC;
     }
     
   }
