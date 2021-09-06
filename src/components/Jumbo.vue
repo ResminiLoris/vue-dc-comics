@@ -16,9 +16,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .jumbo{
-      background-color: black;
-      color: white;
-      min-height: 200px;
-      line-height: 200px;
+    background-color: black;
+    color: white;
+    min-height: 200px;
+    line-height: 200px;
+  }
+
+  h1{
+      margin: 0;
   }
 </style>
