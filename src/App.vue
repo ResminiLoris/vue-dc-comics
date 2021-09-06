@@ -1,28 +1,38 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header/>
+    <Jumbo/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import Jumbo from './components/Jumbo.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    Jumbo,
   }
 }
 </script>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  //reset
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  //reset links
+  a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
 </style>
