@@ -30,9 +30,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-    .row{
-        display: flex;
-    }
     .banner{
         height: 150px;
         line-height: 150px;
@@ -51,16 +48,12 @@ export default {
     .col-3{
         width: calc(100% / 4);
     }
-    
-    .icon-round img{
-        height: 50px;
-    }
     .icon-row{
         justify-content: space-between;
         align-items: center;
     }
     .follow{
         font-size: 20px;
-        font-weight: bold;
+        font-weight: bolder;
     }
 </style>

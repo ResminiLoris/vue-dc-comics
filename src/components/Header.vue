@@ -8,8 +8,8 @@
           </figure>
         </div>
         <div class="col">
-          <figure>
-            <nav>
+          <nav>
+            <section class="row">
               <ul>
                 <li> <a href="#">characters</a></li>
                 <li> <a href="#">comics</a></li>
@@ -22,8 +22,8 @@
                 <li> <a href="#">news</a></li>
                 <li> <a href="#">shop</a></li>
               </ul>
-            </nav>
-          </figure>
+            </section>
+          </nav>
         </div>
       </div>
     </header>
@@ -43,18 +43,21 @@ export default {
     display: inline-block;
   }
 
-  ul li{
-    display: inline-block;
-    font-size: 20px;
-  }
-
-  ul li a{
-    padding-left: 30px;
-    padding-bottom: 80px;
-  }
-
   .row{
-    display: flex;
+    align-items: center;
   }
-  
+
+  ul{
+    li{
+      display: inline-block;
+      font-size: 20px;
+      a{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 55px;
+        font-weight: bolder;
+        
+      }
+    }
+  }
 </style>

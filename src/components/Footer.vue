@@ -3,45 +3,45 @@
         <section class="container">
             <div class="row main">
                 <div class="col-6">
-                    <div class="row">
+                    <div id="links" class="row">
                         <div class="col-4">
                             <ul>
                                 <li class="list-title">DC comics</li>
-                                <li>characters</li>
-                                <li>comics</li>
-                                <li>movies</li>
-                                <li>tv</li>
-                                <li>games</li>
-                                <li>videos</li>
-                                <li>news</li>
+                                <li> <a href="#"> characters</a></li>
+                                <li> <a href="#"> comics</a></li>
+                                <li> <a href="#"> movies</a></li>
+                                <li> <a href="#"> tv</a></li>
+                                <li> <a href="#"> games</a></li>
+                                <li> <a href="#"> videos</a></li>
+                                <li> <a href="#"> news</a></li>
                             </ul>
                             <ul>
-                                <li class="list-title">Shop</li>
-                                <li>Shop DC</li>
-                                <li>Shop DC collectibles</li>
+                                <li class="list-title"> Shop</li>
+                                <li> <a href="#"> Shop DC</a></li>
+                                <li> <a href="#"> Shop DC collectibles</a></li>
                             </ul>
                         </div>
                         <div class="col-4">
                             <ul>
-                                <li class="list-title">DC</li>
-                                <li>DC comics</li>
-                                <li>characters</li>
-                                <li>comics</li>
-                                <li>movies</li>
-                                <li>tv</li>
-                                <li>games</li>
-                                <li>videos</li>
-                                <li>news</li>
+                                <li class="list-title"> DC</li>
+                                <li> <a href="#"> DC comics</a></li>
+                                <li> <a href="#"> characters</a></li>
+                                <li> <a href="#"> comics</a></li>
+                                <li> <a href="#"> movies</a></li>
+                                <li> <a href="#"> tv</a></li>
+                                <li> <a href="#"> games</a></li>
+                                <li> <a href="#"> videos</a></li>
+                                <li> <a href="#"> news</a></li>
                             </ul>
                         </div>
                         <div class="col-4">
                             <ul>
                                 <li class="list-title">Sites</li>
-                                <li>DC</li>
-                                <li>MAD Kids</li>
-                                <li>DC Kids</li>
-                                <li>DC Universe</li>
-                                <li>DC Power Visa</li>
+                                <li> <a href="#"> DC</a></li>
+                                <li> <a href="#"> MAD Kids</a></li>
+                                <li> <a href="#"> DC Kids</a></li>
+                                <li> <a href="#"> DC Universe</a></li>
+                                <li> <a href="#"> DC Power Visa</a></li>
                             </ul>
                         </div>
                     </div>
@@ -86,11 +86,20 @@ export default {
     }
     .list-title{
         padding-bottom: 10px;
-        font-weight: bold;
+        font-weight: bolder;
         text-transform: uppercase;
         color: lightgray;
     }
-    li{
-        padding-bottom: 5px;
+
+    #links{
+        li{
+            padding-bottom: 5px;
+            a{
+                color: gray;
+                &:hover{
+                    border-bottom: 2px solid #0C7CEC;
+                }
+            }
+        }
     }
 </style>

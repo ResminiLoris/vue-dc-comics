@@ -2,6 +2,7 @@
   <div id="app">
     <Header/>
     <Jumbo/>
+    <BlueBanner/>
     <Footer/>
     <Banner/>
   </div>
@@ -12,6 +13,7 @@ import Header from './components/Header.vue';
 import Jumbo from './components/Jumbo.vue';
 import Footer from './components/Footer.vue';
 import Banner from './components/Banner.vue';
+import BlueBanner from './components/BlueBanner.vue';
 
 export default {
   name: 'App',
@@ -20,6 +22,7 @@ export default {
     Jumbo,
     Footer,
     Banner,
+    BlueBanner,
 
 
   }
@@ -27,11 +30,13 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  //reset
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+
+body{
   margin: 0;
-  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+#app {
   //reset links
   a{
     text-decoration: none;
@@ -45,6 +50,9 @@ export default {
   //utils
   .blue{
     color: #0C7CEC;
+  }
+  .row{
+    display: flex;
   }
   //reset lists
   ul{
