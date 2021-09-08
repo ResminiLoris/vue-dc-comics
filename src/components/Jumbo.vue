@@ -2,7 +2,7 @@
   <div class="jumbo">
     <section class="container jumbo">
       <div class="row">
-        <Card v-for="(comic,index)in comics" :key="index"/>
+        <Card v-for="(comic,index) in comics" :key="index" :comic="comic"/>
       </div>
     </section>
   </div>
@@ -112,9 +112,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .jumbo{
-    background-color: black;
+    background-color: #1C1C1C;
     color: white;
-    min-height: 200px;
-    line-height: 200px;
   }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(100% / 6);
+    justify-content: center;
+    padding-top: 100px;
+  }
+  
 </style>

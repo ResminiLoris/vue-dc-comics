@@ -1,0 +1,18 @@
+<template>
+    <div class="illustration"></div>
+</template>
+
+<script>
+export default {
+  name: 'Illustration',
+  
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+  .illustration{
+      height: 350px;
+      background-image: url("../assets/img/jumbotron.jpg");
+  }
+</style>

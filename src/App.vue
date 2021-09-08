@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header/>
+    <Illustration/>
     <Jumbo/>
     <BlueBanner/>
     <Footer/>
@@ -14,6 +15,7 @@ import Jumbo from './components/Jumbo.vue';
 import Footer from './components/Footer.vue';
 import Banner from './components/Banner.vue';
 import BlueBanner from './components/BlueBanner.vue';
+import Illustration from './components/Illustration.vue';
 
 export default {
   name: 'App',
@@ -23,8 +25,7 @@ export default {
     Footer,
     Banner,
     BlueBanner,
-
-
+    Illustration,
   }
 }
 </script>
